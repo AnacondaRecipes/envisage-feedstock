@@ -33,7 +33,15 @@ test:
 about:
   home: http://docs.enthought.com/envisage/
   license: BSD 3-clause
-  summary: extensible application framework
+  license_family: BSD
+  summary: Extensible application framework
+  description: |
+    Envisage is a Python-based framework for building extensible applications,
+    that is, applications whose functionality can be extended by adding
+    "plug-ins".
+  doc_url: http://docs.enthought.com/envisage/index.html
+  doc_source_url: https://github.com/enthought/envisage/blob/master/docs/source/index.rst
+  dev_url: https://github.com/enthought/envisage
 
 extra:
   recipe-maintainers:
