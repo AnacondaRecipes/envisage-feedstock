@@ -18,8 +18,6 @@ requirements:
   host:
     - pip
     - python
-    - traits
-    - apptools
     - setuptools
   run:
     - python
