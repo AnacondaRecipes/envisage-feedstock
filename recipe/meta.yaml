@@ -1,13 +1,17 @@
-{% set version = "4.5.1" %}
+{% set name = "envisage" %}
+{% set version = "4.6.0" %}
+{% set file_ext = "tar.gz" %}
+{% set hash_type = "sha256" %}
+{% set hash_value = "6402079190ce8186534d7e6ba7315bff7dc59c13ee6465c52d4a8239159c5fea" %}
 
 package:
-  name: envisage
+  name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  fn: envisage-{{ version }}.tar.gz
-  url: https://pypi.python.org/packages/source/e/envisage/envisage-{{ version }}.tar.gz
-  md5: 384851e388cbaccf0f6466222fc669d4
+  fn: {{ name }}-{{ version }}.{{ file_ext }}
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ file_ext }}
+  {{ hash_type }}: {{ hash_value }}
 
 build:
   number: 0
@@ -42,3 +46,4 @@ about:
 extra:
   recipe-maintainers:
     - grlee77
+    - nehaljwani
