@@ -16,8 +16,6 @@ build:
 requirements:
   host:
     - python
-    - traits
-    - apptools
     - setuptools
   run:
     - python
