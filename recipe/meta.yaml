@@ -17,11 +17,11 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >=3.6
     - setuptools
   run:
-    - python
-    - traits
+    - python >=3.6
+    - traits >=6.2
     - apptools
 
 test:
@@ -30,7 +30,7 @@ test:
 
 about:
   home: http://docs.enthought.com/envisage/
-  license: BSD 3-clause
+  license: BSD-3-clause
   license_family: BSD
   license_file: LICENSE.txt
   summary: extensible application framework
