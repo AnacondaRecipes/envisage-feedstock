@@ -7,7 +7,7 @@ package:
 source:
   fn: envisage-{{ version }}.tar.gz
   url: https://pypi.python.org/packages/source/e/envisage/envisage-{{ version }}.tar.gz
-  md5: 00d64b4e187c5e77fd95ad66a0fd1191
+  sha256: 8864c29aa344f7ac26eeb94788798f2d0cc791dcf95c632da8d79ebc580e114c
 
 build:
   noarch: python
