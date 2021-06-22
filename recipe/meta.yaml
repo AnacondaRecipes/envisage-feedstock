@@ -19,6 +19,9 @@ requirements:
     - pip
     - python >=3.6
     - setuptools
+    - wheel
+    - traits >=6.2
+    - apptools
   run:
     - python >=3.6
     - traits >=6.2
